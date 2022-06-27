@@ -1,0 +1,39 @@
+{
+   "script":[
+      {
+         "actionName":"assign",
+         "params":"#integer?1",
+         "outVar":"--NONE--"
+      },
+      {
+         "actionName":"log",
+         "params":"that was an example of assigning a value to an integer! %#integer%",
+         "outVar":"--NONE--"
+      },
+      {
+         "actionName":"split",
+         "params":",?hello!",
+         "outVar":"\u0026string[]"
+      },
+      {
+         "actionName":"foreach",
+         "params":"\u0026string[]?\u0026str",
+         "outVar":"--NONE--"
+      },
+      {
+         "actionName":"log",
+         "params":"%\u0026str%",
+         "outVar":"--NONE--"
+      },
+      {
+         "actionName":"next",
+         "params":"",
+         "outVar":"--NONE--"
+      },
+      {
+         "actionName":"log",
+         "params":"wow! arrays work too.",
+         "outVar":"--NONE--"
+      }
+   ]
+}
